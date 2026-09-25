@@ -1,0 +1,25 @@
+============================================================
+1. ĐÁNH GIÁ THÀNH PHẦN DETECTOR (SCRFD)
+============================================================
+-> Tìm thấy 1680 người có từ 2 ảnh trở lên trong LFW.
+
+Đang xử lý ảnh (Detection & Embedding): 100%|██████████████████████████████████████████████████████████████████████| 1680/1680 [08:38<00:00,  3.24người/s]
+
+Tổng số ảnh kiểm thử     : 9164
+ Phát hiện 1 mặt (Đúng) : 7662 (83.61%)
+ Không tìm thấy mặt    : 22 (0.24%)
+ Phát hiện >1 mặt      : 1480 (16.15%)
+⚡ Thời gian Detect trung bình: 32.24 ms / ảnh
+
+============================================================
+2. ĐÁNH GIÁ RECOGNIZER & TÌM NGƯỠNG THRESHOLD TỐI ƯU
+============================================================
+Đang tính FAR/FRR đường cong ROC: 100%|██████████████████████████████████████████████████████████████████████| 1001/1001 [00:00<00:00, 2933.49threshold/s]
+
+Tổng số cặp Genuine    : 7462
+Tổng số cặp Impostor   : 124750
+ Tỷ lệ lỗi cân bằng (EER)     : 1.16%
+🎯 Ngưỡng tối ưu (Optimal THRESHOLD): 0.1620
+
+-> Đã lưu biểu đồ đánh giá tại: 'lfw_evaluation_result.png'
+(base) PS C:\Users\admin\OneDrive\Desktop\code\python> 
